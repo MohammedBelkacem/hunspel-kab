@@ -1,0 +1,101 @@
+﻿SET UTF-8
+FLAG long
+#addad amaruz n umalay asuf axxam argaz adrar...
+PFX A0 Y 1
+PFX A0 a u a
+
+PFX A1 Y 1
+PFX A1 a we a
+
+PFX A2 Y 1
+PFX A2 a wa a
+
+PFX A3 Y 1
+PFX A3 a wu a
+
+PFX A4 Y 1
+PFX A4 i yi i
+
+
+
+#combiner des prefixes et des suffixes au meme temps
+CIRCUMFIX X
+
+#asget amalay
+PFX A5 Y 1
+PFX A5 a i/X a
+
+SFX A6 Y 1
+SFX A6 0 en/A5X .
+
+#addad amaruz n usget amalay
+PFX A7 Y 1
+PFX A7 a yi/X a
+
+SFX A8 Y 1
+SFX A8 0 en/A7X .
+
+#addad amaruz n usget amalay
+PFX C Y 1
+PFX C a ye/X a
+
+SFX D Y 1
+SFX D 0 en/CX .
+
+#unti asuf
+#PFX A1 Y 1
+#PFX A1 0 t/X .
+s
+#SFX 11 Y 1
+#SFX 11 0 t/A1X .
+
+
+
+#fin
+# unti asuf amaruz ilelli
+
+##PFX D Y 2
+##PFX D 0 t/X .
+##PFX D a te/X a
+##
+##SFX E Y 1
+##SFX E 0 t/DX .
+##
+### unti asuf amaruz  tzemmurt
+##
+##PFX 4 Y 2
+##PFX 4 a t/X a
+##PFX 4 0 t/X .
+##
+##SFX 5 Y 1
+##SFX 5 0 t/4X .
+##
+##
+##
+### unti asget ilelli amaruz
+##
+##PFX F Y 2
+##PFX F a ti/X a
+##PFX F a te/X a
+##
+##SFX G Y 1
+##SFX G 0 in/FX .
+##
+### unti asget ilelli amaruz azemmur
+##
+##PFX 6 Y 2
+##PFX 6 a ti/X a
+##PFX 6 a t/X a
+##SFX 7 Y 2
+##SFX 7 0 in/6X .
+##SFX 7 ur rin/6X .
+##
+##PFX 8 Y 2
+##PFX 8 a i/X a
+##PFX 8 a yi/X a
+##SFX 9 Y 1
+##SFX 9 ur ran/8X .
+##
+##PFX 10 Y 1
+##PFX 10 ta t .
+##
