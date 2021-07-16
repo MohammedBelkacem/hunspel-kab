@@ -20,18 +20,27 @@ PFX E i yi i #i->yi
 
 
 CIRCUMFIX X
+
+###addad amaruz n usget unti
+PFX Q Y 1
+PFX Q a te/X a
+
+SFX R Y 1
+SFX R 0 in/QX .
+
 #unti
 PFX F Y 1
-PFX F a ta/X a
+PFX F 0 t/X .
 
 SFX G Y 1
-SFX G 0 t/FX .
+SFX G 0 t/FQX .
 ###unti asget
 PFX H Y 1
 PFX H a ti/X a
 
+
 SFX I Y 1
-SFX I 0 in/HX .
+SFX I 0 in/QHX .
 
 ##
 
@@ -41,72 +50,30 @@ PFX K a i/X a
 
 SFX L Y 1
 SFX L 0 en/KX .
+
+SFX S Y 1
+SFX S 0 en .
+
+
+
 ##
 ###addad amaruz n usget amalay
 PFX M Y 1
 PFX M a yi/X a
-#N libre
+
 
 PFX O Y 1
 PFX O a ye/X a
 
 SFX P Y 1
-SFX P 0 en/MX .
+SFX P 0 en/MOX .
 ##
 
-###addad amaruz n usget unti
-PFX Q Y 1
-PFX Q a te/X a
-##
-SFX R Y 1
-SFX R 0 in/QX .
+###addad amaruz n usget amalay
+SFX V Y 1
+SFX V i an i
 
-
-#fin
-# unti asuf amaruz ilelli
-
-##PFX D Y 2
-##PFX D 0 t/X .
-##PFX D a te/X a
-##
-##SFX E Y 1
-##SFX E 0 t/DX .
-##
-### unti asuf amaruz  tzemmurt
-##
-##PFX 4 Y 2
-##PFX 4 a t/X a
-##PFX 4 0 t/X .
-##
-##SFX 5 Y 1
-##SFX 5 0 t/4X .
-##
-##
-##
-### unti asget ilelli amaruz
-##
-##PFX F Y 2
-##PFX F a ti/X a
-##PFX F a te/X a
-##
-##SFX G Y 1
-##SFX G 0 in/FX .
-##
-### unti asget ilelli amaruz azemmur
-##
-##PFX 6 Y 2
-##PFX 6 a ti/X a
-##PFX 6 a t/X a
-##SFX 7 Y 2
-##SFX 7 0 in/6X .
-##SFX 7 ur rin/6X .
-##
-##PFX 8 Y 2
-##PFX 8 a i/X a
-##PFX 8 a yi/X a
-##SFX 9 Y 1
-##SFX 9 ur ran/8X .
-##
-##PFX 10 Y 1
-##PFX 10 ta t .
-##
+PFX T Y 1
+PFX T i yi/X i
+SFX U Y 1
+SFX U i an/TX i
