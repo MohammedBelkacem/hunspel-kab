@@ -1,0 +1,124 @@
+SET UTF-8
+TRY abcdefghijklmnopqrstuvwxyzčǧḥɣṛṣṭɛẓABCDEFGHIJKLMNOPQRSTUVWXYZČǦḤƔṚṢṬƐẒ-
+
+REP 2
+
+REP gh ɣ
+REP kh x
+REP dh ḍ
+REP dj ǧ
+
+#FLAG long
+
+
+#addad amaruz n wasuf amalay...
+
+PFX A Y 1
+PFX A a u a #a->u
+
+PFX B Y 1
+PFX B a wu a #a->wu
+
+PFX C Y 1
+PFX C a we a #a->we
+
+
+
+
+
+
+CIRCUMFIX X
+
+#unti
+PFX F Y 1
+PFX F 0 t/X [a]
+
+SFX G Y 1
+SFX G 0 t/FX .
+
+###unti asget
+
+PFX H Y 1
+PFX H a ti/X a
+
+SFX I Y 1
+SFX I 0 in/HX .
+
+
+###addad amaruz n usget unti
+PFX Q Y 1
+PFX Q a te/X a
+
+SFX R Y 1
+SFX R 0 in/QX .
+
+
+###asget amalay
+PFX K Y 1
+PFX K a i/X a
+
+SFX L Y 1
+SFX L 0 en/KX .
+
+
+
+
+##
+###addad amaruz n usget amalay
+PFX M Y 1
+PFX M a yi/X a
+
+
+PFX O Y 1
+PFX O a ye/X a
+
+SFX P Y 1
+SFX P 0 en/MOX .
+##
+
+## Imyagen efk, els...
+PFX a Y 1
+PFX a e 0/X e
+
+
+SFX b Y 10
+SFX b 0 et/aX .
+SFX b 0 emt/aX .
+SFX b 0 eɣ/aX .
+SFX b 0 en/aX .
+SFX b 0 ent/aX .
+SFX b 0 iɣ/aX .
+SFX b 0 an/aX .
+SFX b 0 ant/aX .
+SFX b 0 in/aX .
+SFX b 0 int/aX .
+
+PFX c Y 1
+PFX c e te/X e
+
+SFX d Y 10
+SFX d 0 eḍ/cX .
+SFX d 0 em/cX .
+SFX d 0 emt/cX .
+SFX d 0 iḍ/cX .
+SFX d 0 a/cX .
+SFX d 0 am/cX .
+SFX d 0 amt/cX .
+SFX d 0 i/cX .
+SFX d 0 im/cX .
+SFX d 0 imt/cX .
+
+
+PFX e Y 2
+PFX e e ye e
+PFX e e ne e
+
+PFX g Y 1
+PFX g e ye/X e
+
+PFX i Y 1
+PFX i e ne/X e
+
+SFX h Y 2
+SFX h 0 a/gciX .
+SFX h 0 i/gciX .
